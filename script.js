@@ -1,6 +1,6 @@
 // async function fetchData() {
 //     const inputText = document.getElementById('inputText').value.toLowerCase();
-//     const response = await fetch('https://kuzeytunakale.github.io/k1.json');
+//     const response = await fetch('https://kuzeytunakale.github.io/lordoftherings/k1.json');
 //     const data = await response.json();
 
 //     let closestMatch = '';
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 async function fetchData() {
     const inputText = document.getElementById('inputText').value.toLowerCase();
-    const response = await fetch('https://kuzeytunakale.github.io/k1.json');
+    const response = await fetch('https://kuzeytunakale.github.io/lordoftherings/k1.json');
     const data = await response.json();
 
     let closestMatch = '';
